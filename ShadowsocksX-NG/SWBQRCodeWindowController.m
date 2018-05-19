@@ -103,9 +103,9 @@
 - (void)flagsChanged:(NSEvent *)event {
     NSUInteger modifiers = event.modifierFlags & NSDeviceIndependentModifierFlagsMask;
     if (modifiers & NSAlternateKeyMask) {
-        [self setQRCode:self.legacyQRCode withOverlayText:@"Legacy"];
+        //[self setQRCode:self.legacyQRCode withOverlayText:@"Legacy"];
     } else {
-        [self setQRCode:self.qrCode withOverlayText:@"SIP002"];
+        //[self setQRCode:self.qrCode withOverlayText:@"SIP002"];
     }
 }
 
